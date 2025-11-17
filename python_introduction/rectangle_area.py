@@ -1,4 +1,9 @@
-length = 10
-width = 5
-area = length * width
-print(f"The area of the rectangle is: {area}")
+age = [0]
+while age <= [18]:
+    age = int(input("Enter your age(must be 18 or older): "))
+print("you are old enough to proceed")
+
+
+
+
+
