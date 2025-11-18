@@ -22,4 +22,4 @@ match priority:
             message += ". Consider completing it when you have free time."
     case _:
          message = "Invalid priority! Please choose high, medium, or low."
-print("\nReminder:", message)                        
+print("Reminder:", message)                        
