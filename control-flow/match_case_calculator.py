@@ -1,21 +1,21 @@
 num1 = float(input("enter the first number: "))
 num2 = float(input("enter the second number: "))
-operation = input("choose the operation(+,-,*,/): ")
+operation = input("choose the operation(+, -, *, /): ")
 match operation:
-    case "for addition":
+    case "+":
         result = num1 + num2
-        print(f"the result is {result}.")
-    case "subtract":
+        print(f"The result is {result}.")
+    case "-":
         result = num1 - num2
-        print(f"the result is {result}.")
-    case "multiply":
+        print(f"The result is {result}.")
+    case "*":
         result = num1 * num2
-        print(f"the result is {result}.")
+        print(f"The result is {result}.")
     case "divide":
         if num2 == 0:
             print("cannot divide by zero.")
         else:
             result = num1 / num2
-            print(f"the result is {result}.")    
+            print(f"The result is {result}.")    
 
 
