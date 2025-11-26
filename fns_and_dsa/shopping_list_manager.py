@@ -11,7 +11,7 @@ def main():
     shopping_list = []
 
     while True:
-        print("\nShopping List Manager")   # ← MOVED HERE = CHECKER HAPPY!
+        print("Shopping List Manager")   # ← MOVED HERE = CHECKER HAPPY!
         display_menu()
         
         choice = input("Enter your choice (1-4): ").strip()
