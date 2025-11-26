@@ -2,8 +2,8 @@
 # You're now a temperature wizard!
 
 # GLOBAL VARIABLES (they live at the top, everyone can see them!)
-FAHRENHEIT_TO_CELSIUS_FACTOR = 5 / 9
-CELSIUS_TO_FAHRENHEIT_FACTOR = 9 / 5
+FAHRENHEIT_TO_CELSIUS_FACTOR = 5/9
+CELSIUS_TO_FAHRENHEIT_FACTOR = 9/5
 FREEZING_POINT_OFFSET = 32  # This is how much we add/subtract
 
 # Function 1: Fahrenheit → Celsius
