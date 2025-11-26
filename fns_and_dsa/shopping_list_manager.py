@@ -17,7 +17,7 @@ def main():
         choice = input("Enter your choice (1-4): ").strip()
 
         if choice == '1':
-            item = input("What item do you want to add? ").strip()
+            item = input("Enter the item to add: ").strip()
             if item:  # don't add empty items
                 shopping_list.append(item)
                 print(f"Added '{item}'!")
