@@ -19,4 +19,3 @@ class Book:
     # This runs when the book gets deleted with "del"
     def __del__(self):
         print(f"Deleting {self.title}")
-        
